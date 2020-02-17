@@ -135,15 +135,12 @@ In order to pass the `auth.apikey` middleware, requests must include an `X-Autho
 
 ## Unauthorized Requests
 
-Requests that do not pass authorization will receive an HTTP 401 Status Code with the following response
+Requests that do not pass authorization will receive an HTTP `401` Status Code with the following response
 
 ```json
-{
-    "errors": [
-        {
-            "message": "Unauthorized"
-        }
-    ]
+{  
+    "status": false,
+    "message": "Unauthorized request, use a valid API Key.",
 }
 ```
 
