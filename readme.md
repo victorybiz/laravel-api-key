@@ -1,20 +1,29 @@
-Laravel API Key Auth
-========
+# Laravel API Key Authorization
+[![GitHub release](https://img.shields.io/github/release/victorybiz/laravel-api-key.svg)](https://packagist.org/packages/victorybiz/laravel-api-key)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/victorybiz/laravel-api-key.svg?branch=master)](https://travis-ci.org/victorybiz/laravel-api-key)
+[![Packagist](https://img.shields.io/packagist/dt/victorybiz/laravel-api-key.svg)](https://packagist.org/packages/victorybiz/laravel-api-key)
 
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/ejarnutowski/laravel-api-key/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/ejarnutowski/laravel-api-key/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/ejarnutowski/laravel-api-key"><img src="https://poser.pugx.org/ejarnutowski/laravel-api-key/license.svg" alt="License"></a>
+API Key Authorization for Laravel application.
 
 ## Installation
+Install using composer, from the command line run:
 
-Run `composer require ejarnutowski/laravel-api-key`.
+```bash
+$ composer require victorybiz/laravel-api-key
+```
+Alternatively, you can add `"victorybiz/laravel-api-key": "^1.0"` to your composer.json file's `require` section and 
+then you'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
 
-In your `config/app.php` file, add the Laravel API Key service provider to the end of the `providers` array.
+> If you use **Laravel >= 5.5** you can skip this step and go to [**`usage`**](https://github.com/victorybiz/laravel-api-key#usage-in-laravel-project)
+
+>  If you use **Laravel < 5.5**, you need to register the service provider with the application. Open up `config/app.php` and locate the `providers` key, add the Laravel API Key service provider to the end of the `providers` array.
 
 ```php
 'providers' => [
     ...
-    Ejarnutowski\LaravelApiKey\Providers\ApiKeyServiceProvider::class,
+    Victorybiz\LaravelApiKey\Providers\ApiKeyServiceProvider::class,
+
 ],
 ```
 

@@ -1,12 +1,12 @@
 {
-    "name": "ejarnutowski/laravel-api-key",
+    "name": "victorybiz/laravel-api-key",
     "description": "Authorize requests to your Laravel application with API keys",
-    "keywords": ["api", "api key", "authentication", "authorization", "laravel"],
+    "keywords": ["api", "api key", "authentication", "authorization", "laravel", "laravel api key"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Elliott Jarnutowski",
-            "email": "e@jarno.co"
+            "name": "Victory Osayi",
+            "email": "lavictorybiz@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ejarnutowski\\LaravelApiKey\\": "src"
+            "Victorybiz\\LaravelApiKey\\": "src"
         }
     },
     "extra": {
         "laravel": {
-            "dont-discover": [
-                "ejarnutowski/laravel-api-key"
+            "providers": [
+                "Victorybiz\\LaravelApiKey\\Providers\\ApiKeyServiceProvider"
             ]
         }
     }

@@ -29,9 +29,8 @@ class AuthorizeApiKey
         }
 
         return response([
-            'errors' => [[
-                'message' => 'Unauthorized'
-            ]]
+            'status' => false,
+	        'message' => 'Unauthorized request, use a valid API Key.',
         ], 401);
     }
 
