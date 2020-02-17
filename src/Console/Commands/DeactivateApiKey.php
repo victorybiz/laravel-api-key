@@ -1,8 +1,8 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Console\Commands;
+namespace Victorybiz\LaravelApiKey\Console\Commands;
 
-use Ejarnutowski\LaravelApiKey\Models\ApiKey;
+use Victorybiz\LaravelApiKey\Models\ApiKey;
 use Illuminate\Console\Command;
 
 class DeactivateApiKey extends Command

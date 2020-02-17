@@ -1,13 +1,13 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Providers;
+namespace Victorybiz\LaravelApiKey\Providers;
 
-use Ejarnutowski\LaravelApiKey\Console\Commands\ActivateApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\DeactivateApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\DeleteApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\GenerateApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\ListApiKeys;
-use Ejarnutowski\LaravelApiKey\Http\Middleware\AuthorizeApiKey;
+use Victorybiz\LaravelApiKey\Console\Commands\ActivateApiKey;
+use Victorybiz\LaravelApiKey\Console\Commands\DeactivateApiKey;
+use Victorybiz\LaravelApiKey\Console\Commands\DeleteApiKey;
+use Victorybiz\LaravelApiKey\Console\Commands\GenerateApiKey;
+use Victorybiz\LaravelApiKey\Console\Commands\ListApiKeys;
+use Victorybiz\LaravelApiKey\Http\Middleware\AuthorizeApiKey;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
