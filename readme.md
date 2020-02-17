@@ -5,6 +5,7 @@
 [![Packagist](https://img.shields.io/packagist/dt/victorybiz/laravel-api-key.svg)](https://packagist.org/packages/victorybiz/laravel-api-key)
 
 API Key Authorization for Laravel application.
+
 The initial core files of this package was cloned from [*`ejarnutowski/laravel-api-key`*](https://github.com/ejarnutowski/laravel-api-key)
 
 ## Installation
