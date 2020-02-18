@@ -30,7 +30,7 @@ class AuthorizeApiKey
 
         return response()->json([
             'status' => false,
-	        'message' => 'Unauthorized request, use a valid API Key.',
+	        'message' => 'Unauthorized endpoint request.',
         ], 401);
     }
 

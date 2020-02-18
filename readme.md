@@ -142,7 +142,7 @@ Requests that do not pass authorization will receive an HTTP `401` Status Code w
 ```json
 {  
     "status": false,
-    "message": "Unauthorized request, use a valid API Key.",
+    "message": "Unauthorized endpoint request.",
 }
 ```
 
